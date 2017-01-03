@@ -6,7 +6,7 @@ serpent = require('serpent')
 redis:select(2)
 gp = -000000000000
 sudo_users = {
-[999999999] = '[S][H][O][W][E][Y][E]',
+[275802607] = '[T][E][N][T][T]',
 }--@Showeye
 function dl_cb(arg, data)
   vardump(arg)
@@ -138,7 +138,7 @@ tdcli.forwardMessages(msg.chat_id_, gp, {[0] = redis:get('banerid')}, 0)
   function addlist(msg)
   if msg.content_.contact_.ID == "Contact" then
 	  tdcli.importContacts(msg.content_.contact_.phone_number_, (msg.content_.contact_.first_name_ or '--'), '#bot', msg.content_.contact_.user_id_)--@Showeye
-	   tdcli.sendMessage(msg.chat_id_, msg.id_, 1, '<b>addi \nadd kardi bia pv</b>\n\n', 1, 'html')--@Showeye
+	   tdcli.sendMessage(msg.chat_id_, msg.id_, 1, 'adi bia pv nayay block', 1, 'html')--@Showeye
 	end
 	end
   function group_type(msg)
